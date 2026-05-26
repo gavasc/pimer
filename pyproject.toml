@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pimer"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["textual>=0.87"]
+
+[project.scripts]
+pimer = "pimer.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pimer"]

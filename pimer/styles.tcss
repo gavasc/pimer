@@ -1,0 +1,47 @@
+Screen {
+    layout: vertical;
+}
+
+#main-pane {
+    layout: vertical;
+    height: 1fr;
+    background: transparent;
+}
+
+TabbedContent {
+    height: 1fr;
+    background: transparent;
+}
+
+TabPane {
+    layout: vertical;
+    padding: 0 1;
+    background: transparent;
+}
+
+ItemListWidget {
+    height: 1fr;
+    background: transparent;
+    padding: 1 1;
+}
+
+ItemListWidget:focus {
+    border: none;
+    outline: none;
+}
+
+BigTimerWidget {
+    height: auto;
+    background: transparent;
+    border-bottom: solid $panel;
+    padding: 1 2;
+}
+
+Digits.running { color: ansi_bright_green;  }
+Digits.paused  { color: ansi_bright_yellow; }
+Digits.done    { color: ansi_bright_red;    }
+Digits.idle    { color: ansi_bright_black;  }
+
+Footer {
+    background: $panel;
+}

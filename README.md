@@ -36,6 +36,7 @@ Key          Action
 ─────────────────────
 1 / 2 / 3       Switch tab (Timers / Alarms / Stopwatches)
 n               Create a new item
+e               Edit the selected item
 Enter/Space     Start / pause the selected item
 r               Reset the selected item
 d               Delete the selected item
